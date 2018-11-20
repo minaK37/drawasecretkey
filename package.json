@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/minaK37/drawasecretkey/issues"
   },
-  "homepage": "https://github.com/minaK37/drawasecretkey#readme"
+  "homepage": "https://github.com/minaK37/drawasecretkey#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
