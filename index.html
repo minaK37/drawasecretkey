@@ -64,7 +64,7 @@ arrayKey.push(String.fromCharCode(window.event.keyCode));
 keyPushState=false;
 
 }
-function timeFormat(t){// HH:MM:SS.sss
+function timeFormat(t){
 return (
 ZeroFormat(t.getHours(), 2)+":"+
 ZeroFormat(t.getMinutes(),2)+":"+
@@ -72,7 +72,7 @@ ZeroFormat(t.getSeconds(),2)+"."+
 ZeroFormat(t.getMilliseconds(),3)
 );
 }
-function ZeroFormat(num, n){// ZeroFormat(1,3) => "001"
+function ZeroFormat(num, n){
 var ret=""+num;
 while(ret.length < n){
 ret = "0" + ret;
